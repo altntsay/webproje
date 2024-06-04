@@ -1,0 +1,293 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color:rgb(93, 64, 44);
+}
+body{
+background-color: rgb(255, 247, 237);
+}
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(93, 64, 44);
+  }
+
+
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-right: 30px;
+height: 100px;
+background-color: rgb(182,202,147);       
+width: 100%;
+
+}
+a:hover{
+padding:0.5rem 0.75rem;
+font-size: 18px;
+font-weight: 300;
+color:black;
+position: relative;
+transition: color 0.25s;
+background-color:bisque;
+border-radius: 5px;
+}
+.logo{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+
+.wrapper1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100%;
+}
+.list{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+list-style-type:none;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30px;
+    color:bisque;
+    gap:15px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+.iletisimfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182,202,147);
+    width:100%;
+    left:0;
+    bottom:0;
+    top:0;
+}
+.footer_image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color:rgb(93, 64, 44);
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menuresmi{
+    width:100%;
+    height: 500px;
+}
+p{
+    line-height: 30px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:60px;
+    gap:30px
+}
+.kahvaltı{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.kahvaltı_img{
+    width:96%;
+    height: 500px;
+}
+.pizza,.makarna,.soguk,.tatlı,.kahve,.sıcak,.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.pizza_img,.makarna_img,.soguk_img,.tatlı_img,.kahve_img,.sıcak_img, .burger_img{
+    width:96%;
+    height: 500px; 
+}
+
+
+.sıcak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sıcak_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.sıcak_section_left{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+}
+
+.sıcak_section_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.kahve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.kahve_section{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.kahve_section_left{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    gap:30px;
+}
+/*Buraya kahvenin sağa gitmesi kısmının kodu eklenecek çalışmıyor*/
+.kahve_section_right{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 50%;
+}
+
+.kahvaltı_section{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.kahvaltı_section_left{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    width: 50%;
+}
+.kahvaltı_section_left_part1{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.diger__{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+
+}
+h3{
+    border-bottom: dotted;
+    width: 100%;
+}
+.pizza_section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:30px;
+    gap:10px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.burger_section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:30px;
+    gap:10px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.makarna_section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    gap:10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.soguk_section{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 30px;
+    gap:16%;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.tatlı_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:30px;
+    gap:20px;
+    width: 15%;
+}
+span{
+    line-height: 30px;
+}
+.logoacıklama__{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+.menuacıklama{
+    text-align:center;
+}
+

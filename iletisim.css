@@ -1,0 +1,160 @@
+
+ * {
+        margin: 0;
+        box-sizing: border-box;
+        color:rgb(93, 64, 44);
+    }
+body{
+    background-color: rgb(255, 247, 237);
+}
+html{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color:rgb(93, 64, 44);
+      }
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 30px;
+    height: 100px;
+    background-color: rgb(182,202,147);    
+    width: 100%;
+
+}
+a:hover{
+    padding:0.5rem 0.75rem;
+    font-size: 18px;
+    font-weight: 300;
+    color:black;
+    position: relative;
+    transition: color 0.25s;
+    background-color:bisque;
+    border-radius: 5px;
+}
+.logo{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    color:rgb(93, 64, 44);
+}
+
+
+.iletisimpart2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f7f0e6;
+    margin-left:25%;
+    width: 50%;
+    padding-top: 50px;
+
+}
+.formparagraph{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formbaslık{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formgonder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.hiz{
+    padding-bottom: 10px;
+}
+.inputtext{
+    height:40px;
+    
+}
+.inputradio{
+ margin-left:1.5em;
+ margin-top: 1.3em;
+ margin-bottom: 1.3em;
+}
+.submit{
+    width: 50%;
+    margin-left: 25%;
+    height: 50px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30px;
+    color:bisque;
+    gap:15px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+.iletisimfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182,202,147);
+    width:100%;
+    left:0;
+    bottom:0;
+    top:0;
+}
+.footer_image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    font-size: 20px;
+}
+h1{
+   color: rgb(93, 64, 44);
+   text-align: center;
+}
+
+.logoacıklama__{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
